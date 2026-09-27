@@ -7,8 +7,8 @@ The previous PRE-ALPHA / LEGACY landing page and disabled Pages configuration ar
 ## Current public claims
 
 - ResearchOS is a local-first scientific workbench.
-- An internal Windows FTIR candidate passed clean-Sandbox first-install and offline analysis. This is not an invited or public release.
-- XPS is still undergoing release qualification and is not presented as available.
+- An internal Windows FTIR candidate passed clean-Sandbox first-install, offline analysis, and A-to-B upgrade/uninstall data-retention tests. This is not an invited or public release.
+- A frozen XPS science probe passed a clean-Sandbox test, but installed XPS UI/workflow qualification is still open; XPS is not presented as available.
 - Foveliem integration and additional scientific modules are roadmap work, not implemented Alpha promises.
 - Access requests go by email to `limiaodong6@gmail.com`; there is no online registration or public download.
 
