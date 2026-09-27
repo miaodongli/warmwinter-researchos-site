@@ -1,84 +1,67 @@
 <!doctype html>
 <html lang="zh-CN">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="WarmWinter ResearchOS - local-first research analysis for scientific workflows, evidence, and AI-assisted interpretation."
-    />
-    <title>WarmWinter ResearchOS</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="#top" aria-label="WarmWinter ResearchOS 首页">
-        <img src="assets/researchos-mark.png" alt="" width="36" height="36" />
-        <span>WarmWinter <strong>ResearchOS</strong></span>
-      </a>
-      <a class="text-link" href="https://github.com/miaodongli/WW" rel="noreferrer">GitHub</a>
-    </header>
-
-    <main id="top">
-      <section class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">RESEARCH ANALYSIS, LOCAL FIRST</p>
-          <h1 id="hero-title">ResearchOS</h1>
-          <p class="lede">
-            面向科学工作流、证据整理与 AI 辅助解读的本地优先研究分析环境。
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="https://github.com/miaodongli/WW" rel="noreferrer">查看项目</a>
-            <a class="button secondary" href="#status">了解 Alpha 状态</a>
-          </div>
-        </div>
-        <div class="hero-visual" aria-hidden="true">
-          <div class="orbit orbit-one"></div>
-          <div class="orbit orbit-two"></div>
-          <img src="assets/researchos-mark.png" alt="" />
-          <span class="node node-one"></span>
-          <span class="node node-two"></span>
-          <span class="node node-three"></span>
-        </div>
-      </section>
-
-      <section class="capabilities" aria-label="产品方向">
-        <article>
-          <span class="index">01</span>
-          <h2>科学分析</h2>
-          <p>围绕研究数据与专业工作流组织分析，而不是把通用聊天界面套进实验室。</p>
-        </article>
-        <article>
-          <span class="index">02</span>
-          <h2>证据导向</h2>
-          <p>让数据、文献与解释保持可追溯关系，帮助研究判断回到可检查的依据。</p>
-        </article>
-        <article>
-          <span class="index">03</span>
-          <h2>AI 辅助</h2>
-          <p>AI 参与解读和工作流协作，但不替代研究者的专业审查与最终判断。</p>
-        </article>
-      </section>
-
-      <section id="status" class="status" aria-labelledby="status-title">
-        <div>
-          <p class="eyebrow">CURRENTLY IN ALPHA</p>
-          <h2 id="status-title">先把研究流程做扎实。</h2>
-        </div>
-        <div class="status-copy">
-          <p>
-            ResearchOS 当前以本地运行作为默认边界。公开站用于介绍项目和记录进展，不提供云端账户、公开上传或付费服务。
-          </p>
-          <p>
-            Hosted multi-user operation will be evaluated only after identity, authorization, isolation, operations, and billing controls are proven.
-          </p>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <span>WarmWinter ResearchOS</span>
-      <span>Alpha / Local-first</span>
-    </footer>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f0e8">
+  <meta name="description" content="WarmWinterOS：本地优先的科学工作平台。ResearchOS 负责可复核的分析，Foveliem 是逐步建设中的科研智能层。当前仅接受内测申请。">
+  <title>WarmWinterOS · 科学工作，从证据出发</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到主要内容</a>
+  <header class="site-header" id="top">
+    <div class="shell header-inner">
+      <a class="brand" href="#top" aria-label="WarmWinterOS 首页"><span class="mark" aria-hidden="true">W<span>·</span></span> WarmWinter<span class="brand-os">OS</span></a>
+      <nav class="nav" aria-label="主导航">
+        <a href="#researchos">ResearchOS</a>
+        <a href="#foveliem">Foveliem</a>
+        <a href="#status">当前状态</a>
+        <a href="#access">申请内测</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="shell hero" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow"><span class="dot" aria-hidden="true"></span> LOCAL-FIRST SCIENTIFIC WORKBENCH</p>
+        <h1 id="hero-title">科学工作，<br><em>从证据出发。</em></h1>
+        <p class="lede">WarmWinterOS 正在把确定性的科研分析与可审计的智能协作连接起来。原始数据、科学计算和研究者的判断，始终比模型的一句回答更重要。</p>
+        <div class="actions"><a class="button primary" href="#access">申请内测 <span aria-hidden="true">↗</span></a><a class="button secondary" href="#status">查看真实进度 <span aria-hidden="true">↓</span></a></div>
+        <p class="fine-print">当前没有公开下载包；申请不代表立即获得邀请。</p>
+      </div>
+      <div class="architecture" role="img" aria-label="Foveliem 经 Scientific Capability Contract 调用 ResearchOS 科学核心">
+        <div class="architecture-top"><span>WORKFLOW / 001</span><span>IN DEVELOPMENT</span></div>
+        <div class="system-node"><span>01 / INTELLIGENCE</span><strong>Foveliem</strong><small>任务理解 · 规划 · 解释</small></div>
+        <div class="bridge"><span></span><p>Scientific Capability Contract</p><span></span></div>
+        <div class="system-node science-node"><span>02 / SCIENTIFIC CORE</span><strong>ResearchOS</strong><small>确定性执行 · 验证 · 证据</small></div>
+        <div class="architecture-bottom"><span>HUMAN REVIEW REQUIRED</span><span>↗ 2026</span></div>
+      </div>
+    </section>
+    <section class="shell principles" aria-label="产品原则">
+      <div><span>01</span><strong>确定性优先</strong><p>数值和事实来自经过验证的科学引擎，生成式 AI 不充当实验结论。</p></div>
+      <div><span>02</span><strong>证据可复核</strong><p>把输入、参数、结果与判断边界留在同一条可检查的轨迹里。</p></div>
+      <div><span>03</span><strong>尽可能本地</strong><p>研究文件与分析工作流优先留在用户机器上；联网能力必须明确选择。</p></div>
+    </section>
+    <section class="shell product" id="researchos" aria-labelledby="researchos-title">
+      <div class="product-intro"><p class="kicker">THE SCIENTIFIC WORKSPACE</p><h2 id="researchos-title">ResearchOS<span>.</span></h2><p>面向真实科研数据的本地工作平台。先解析、计算和验证，再讨论这些结果意味着什么。</p></div>
+      <div class="product-card"><div class="card-header"><span>CAPABILITY / 001</span><span class="badge">内部候选</span></div><h3>FTIR 红外光谱</h3><p>现有 Windows 安装候选已在无 Python、无 Node 的干净沙箱中完成离线启动、光谱导入与确定性分析验证。这不是公开发布放行。</p>
+        <div class="spectrum" aria-hidden="true"><span>TRANSMITTANCE / WAVENUMBER</span><svg viewBox="0 0 520 120" preserveAspectRatio="none"><path class="grid" d="M0 24H520M0 60H520M0 96H520"/><path class="trace" d="M0 24 L78 24 L96 27 L109 78 L120 26 L180 24 L196 31 L208 95 L218 27 L285 24 L303 42 L316 86 L327 30 L376 24 L391 35 L403 65 L417 28 L520 24"/></svg></div>
+        <p class="fine-print">先支持真实、可复核的工作流；不以模块数量代替科学验收。</p>
+      </div>
+    </section>
+    <section class="shell product product-alt" id="foveliem" aria-labelledby="foveliem-title">
+      <div class="product-intro"><p class="kicker">THE INTELLIGENCE LAYER</p><h2 id="foveliem-title">Foveliem<span>.</span></h2><p>未来将负责科研任务理解、工具选择、多步骤推理与结果解释；ResearchOS 保持科学执行和数据的所有权。</p></div>
+      <div class="product-card muted"><div class="card-header"><span>ROADMAP / NOT AN ALPHA CLAIM</span><span class="badge planned">规划中</span></div><h3>模型可换，科学核心不换。</h3><p>第一阶段计划支持用户自带模型服务与明确选择的模型档位。Foveliem 调用科研能力必须经过稳定、结构化、可审计的接口，而不是绕进 ResearchOS 页面或复制一套分析逻辑。</p><div class="flow"><span>研究者</span><b>→</b><span>Foveliem</span><b>→</b><span>Scientific Contract</span><b>→</b><span>ResearchOS</span></div></div>
+    </section>
+    <section class="status" id="status" aria-labelledby="status-title"><div class="shell status-inner"><div><p class="kicker">HONEST RELEASE STATUS</p><h2 id="status-title">还没到<br>公开下载那一步。</h2></div><div><p class="status-lede">截至 2026 年 9 月 27 日：FTIR 已有通过首次离线沙箱试装的内部候选；受邀 Alpha 安装包尚未发布。</p><ul class="status-list">
+      <li><span class="status-icon pass" aria-hidden="true"></span><div><strong>已验证</strong><p>干净 Windows 沙箱中，无 Python／Node 环境，离线启动并分析 FTIR。</p></div></li>
+      <li><span class="status-icon open" aria-hidden="true"></span><div><strong>仍需验收</strong><p>双版本升级、卸载后的数据保留、最终发布物与许可证清单。</p></div></li>
+      <li><span class="status-icon open" aria-hidden="true"></span><div><strong>XPS 暂不开放</strong><p>独立科学组件已做本机测试；沙箱与用户界面验收仍未完成。</p></div></li>
+    </ul><p class="fine-print">XRD、Raman、UV-Vis、NMR 与显微图像分析属于后续方向，不是当前安装包承诺。</p></div></div></section>
+    <section class="shell access" id="access" aria-labelledby="access-title"><div><p class="kicker">EARLY ACCESS / BY APPLICATION</p><h2 id="access-title">想参与内测？<br><em>先聊聊你的研究流程。</em></h2><p>目前采用申请审核与定向邀请。安装包将存放于独立的私有发布仓库；这个网站和它的 MIT 源码不包含产品代码或安装包。</p></div><div class="access-card"><p class="kicker">CONTACT THE FOUNDER</p><a href="mailto:limiaodong6@gmail.com?subject=WarmWinterOS%20Alpha%20Access%20Request">limiaodong6@gmail.com <span aria-hidden="true">↗</span></a><p>来信可以简单介绍研究方向、Windows 版本、希望试用的 FTIR 流程。请勿在第一封邮件里附上未公开的光谱、个人敏感数据或 API 密钥。</p><p class="fine-print">没有在线注册或自动发放权限；邮件往来由你自行决定是否继续。</p></div></section>
+    <section class="shell faq" aria-labelledby="faq-title"><div><p class="kicker">PRACTICAL ANSWERS</p><h2 id="faq-title">你可能想知道</h2></div><div><article><h3>界面是独立窗口吗？</h3><p>当前候选在本机启动服务，并在系统浏览器里打开 ResearchOS；不依赖远程网页提供 FTIR 分析。</p></article><article><h3>必须连接 AI Provider 吗？</h3><p>离线 FTIR 确定性分析不需要。未来启用模型能力时，模型服务与费用边界会单独说明。</p></article><article><h3>网站开源，软件也开源吗？</h3><p>不是。这个静态站采用 MIT 许可证；ResearchOS、Foveliem 与安装包仍属独立的私有产品。</p></article></div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-inner"><div><a href="#top">WarmWinterOS</a><p>Scientific work deserves a trustworthy trail.</p></div><div class="footer-links"><a href="https://github.com/miaodongli/warmwinter-researchos-site">网站源码</a><a href="https://github.com/miaodongli/warmwinter-researchos-site/issues">网站问题反馈</a><a href="mailto:limiaodong6@gmail.com">联系</a></div><p>© 2026 WarmWinter · 网站源码 MIT · 产品软件未开源</p></div></footer>
+</body>
 </html>
